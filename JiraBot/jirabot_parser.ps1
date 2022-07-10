@@ -160,7 +160,6 @@ if ($false -eq $isStatus) {
 	echo "Task Status: $task_Status"
 }
 
-#$array | Export-Csv -path D:\Work\Progmatic_Lab\Scripts\JiraBot\test8.csv -NoType -UseCulture -Encoding UTF8
 $array | Export-Csv -path $pathToOutputFile -NoType -UseCulture -Encoding UTF8
 
 $input.Close()
